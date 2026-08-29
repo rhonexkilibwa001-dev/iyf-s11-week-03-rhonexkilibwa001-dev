@@ -1,6 +1,6 @@
 # rhonexkilibwa001-dev - Week 03 Project
 
-This repository contains my Week 0
+This repository contains my Week 3
 
 Overview
 
