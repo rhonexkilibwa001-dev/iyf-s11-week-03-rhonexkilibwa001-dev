@@ -1,6 +1,6 @@
 # rhonexkilibwa001-dev - Week 03 Project
 
-This repository contains my Week 03: Tools & Workflow deliverable for IYF Weekend Academy (Season 11).
+This repository contains my Week 0
 
 Overview
 
