@@ -1,0 +1,24 @@
+/* src/css/todo.css */
+:root{--bg:#ffffff;--muted:#6b7280;--accent:#2563eb;--success:#16a34a}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial;line-height:1.4;background:#f8fafc;color:#0f172a;margin:0;padding:1rem}
+.container{max-width:720px;margin:0 auto;background:var(--bg);padding:1.25rem;border-radius:8px;box-shadow:0 6px 20px rgba(2,6,23,.08)}
+header h1{margin:0 0 .25rem;font-size:1.5rem}
+.todo-input{display:flex;gap:.5rem;margin:1rem 0}
+.todo-input form{display:flex;gap:.5rem;width:100%}
+.todo-input input{flex:1;padding:.6rem;border:1px solid #e6e9ee;border-radius:6px}
+.todo-input button{background:var(--accent);color:white;border:0;padding:.6rem .9rem;border-radius:6px;cursor:pointer}
+.todo-controls{display:flex;justify-content:space-between;align-items:center;margin-bottom:.75rem}
+.filters{display:flex;gap:.5rem}
+.filters button{background:transparent;border:1px solid transparent;padding:.35rem .6rem;border-radius:6px;cursor:pointer}
+.filters button.active{background:#eef2ff;border-color:#c7d2fe}
+#todo-list{list-style:none;padding:0;margin:0}
+.todo-item{display:flex;align-items:center;gap:.6rem;padding:.6rem;border:1px solid #eef2f6;border-radius:6px;margin-bottom:.5rem}
+.todo-item.completed{opacity:.6;text-decoration:line-through}
+.todo-item input[type="checkbox"]{width:18px;height:18px}
+.todo-item .content{flex:1}
+.todo-item .actions{display:flex;gap:.4rem}
+.todo-item button{background:transparent;border:1px solid #e6e9ee;padding:.25rem .5rem;border-radius:6px;cursor:pointer}
+.visually-hidden{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);white-space:nowrap}
+.sr-only{position:absolute;left:-9999px}
+@media (max-width:480px){.container{padding:.75rem}}
