@@ -8,7 +8,8 @@ This project demonstrates command-line skills, basic shell scripting, Git & GitH
 
 Live Demo
 
-[View Live Site](https://rhonexkilibwa001-dev.github.io/iyf-s11-week-03-rhonexkilibwa001-dev)
+- Portfolio (when deployed): [View Live Site](https://rhonexkilibwa001-dev.github.io/iyf-s11-week-03-rhonexkilibwa001-dev)
+- To‑Do App (localStorage): src/todo.html — open locally or via GitHub Pages at the same domain above with `/src/todo.html` appended.
 
 Screenshot
 
@@ -20,6 +21,7 @@ Features
 - ✅ Accessible (basic semantic HTML)
 - ✅ Multi-page layout (starter)
 - ✅ Contact section
+- ✅ To‑Do application with localStorage persistence
 
 Technologies Used
 
@@ -27,6 +29,7 @@ Technologies Used
 - CSS3 (Flexbox, Grid)
 - Git & GitHub
 - Bash scripting
+- Vanilla JavaScript (localStorage)
 
 Project Structure
 
@@ -39,10 +42,12 @@ iyf-s11-week-03-rhonexkilibwa001-dev/
 ├── terminal-log.md
 ├── src/
 │   ├── index.html
+│   ├── todo.html
 │   ├── css/
 │   │   └── styles.css
 │   └── js/
 │       └── main.js
+│       └── todo.js
 ├── docs/
 ├── tests/
 └── images/
@@ -54,10 +59,11 @@ What I Learned
 - How to navigate the terminal and perform file operations using CLI only
 - Writing shell scripts to scaffold projects
 - Basic Git workflow: branching, committing, merging, and pushing to GitHub
+- Using localStorage to persist application data
 
 Future Improvements
 
-- [ ] Add JavaScript interactivity
+- [ ] Add JavaScript interactivity improvements to the portfolio
 - [ ] Implement dark mode
 - [ ] Improve accessibility and ARIA attributes
 
