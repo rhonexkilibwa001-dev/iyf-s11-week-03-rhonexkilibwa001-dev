@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weather Dashboard — Week 03</title>
+  <link rel="stylesheet" href="css/weather.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Weather Dashboard</h1>
+      <p class="muted">Search for a city and see current weather + 5-day forecast (OpenWeatherMap)</p>
+    </header>
+
+    <section class="controls">
+      <form id="search-form">
+        <label for="city" class="visually-hidden">City name</label>
+        <input id="city" name="city" placeholder="Enter city (e.g. Nairobi)" required />
+        <button type="submit">Search</button>
+      </form>
+
+      <form id="key-form">
+        <label for="api-key" class="visually-hidden">OpenWeatherMap API key</label>
+        <input id="api-key" name="api-key" placeholder="OpenWeatherMap API key (save locally)" />
+        <button id="save-key" type="button">Save key</button>
+      </form>
+    </section>
+
+    <section id="current" aria-live="polite">
+      <!-- Current weather will render here -->
+    </section>
+
+    <section id="forecast">
+      <h2>5-Day Forecast</h2>
+      <div id="forecast-cards" class="grid"></div>
+    </section>
+
+    <footer>
+      <p class="muted">Data provided by <a href="https://openweathermap.org/" target="_blank" rel="noopener">OpenWeatherMap</a></p>
+    </footer>
+  </main>
+
+  <script src="js/weather-dashboard.js" type="module"></script>
+</body>
+</html>
